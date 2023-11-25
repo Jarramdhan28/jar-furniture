@@ -1,0 +1,54 @@
+.produk-fajar{
+    margin-top: 80px;
+}
+
+.cari-fajar{
+    display: flex;
+    justify-content: end;
+}
+
+.cari-button-fajar {
+    padding: 10px;
+    border: 1px solid #2B6356;
+    border-radius: 0 5px 5px 0;
+    background-color: #2B6356;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.cari-input-fajar {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    width: 220px;
+}
+
+.pindah-hal-fajar{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.hal-1-fajar{
+    text-decoration: none;
+    color: white;
+    padding: 4px 14px;
+    border: 1px solid #2B6356;
+    background-color: #2B6356;
+}
+
+.hal-2-fajar{
+    text-decoration: none;
+    color: #2B6356;
+    padding: 4px 14px;
+    border: 1px solid #2B6356;
+}
+
+.hal-2-fajar:hover{
+    text-decoration: none;
+    color: white;
+    padding: 4px 14px;
+    border: 1px solid #2B6356;
+    background-color: #2B6356;
+}

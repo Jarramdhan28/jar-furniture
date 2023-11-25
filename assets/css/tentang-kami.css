@@ -1,0 +1,67 @@
+.hero-tentang-fajar{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.hero-tentang-p-fajar{
+    font-size: 40px;
+}
+
+.tentang-kami-fajar{
+    margin-top: 60px;
+}
+
+.tentang-judul-fajar{
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.button-center-fajar{
+    display: flex;
+    justify-content: center;
+}
+
+.promo-fajar{
+    margin-top: 80px;
+    background-image: url('../img/tk-2.png');
+    background-size: cover;
+    background-position: top;
+    height: 620px;
+}
+
+.promo-dis-fajar{
+    padding-top: 100px;
+    font-size: 20px;
+}
+
+.promo-p-fajar{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.promo-pd-fajar{
+    padding-top: 20px;
+}
+
+.testi-fajar{
+    margin-top: 60px;
+}
+
+.testi-pb-fajar{
+    padding-bottom: 20px;
+}
+
+.testi-pt-fajar{
+    margin-top: 20px;
+}
+
+.testi-h3-fajar{
+    font-weight: 600;
+}
+
+.testi-img-fajar{
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}

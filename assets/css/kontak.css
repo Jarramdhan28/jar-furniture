@@ -1,0 +1,68 @@
+.kontak-form-fajar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}
+
+.kontak-fajar{
+    margin-top: 60px;
+}
+
+.form-fajar{
+    width: 100%;
+}
+
+.kontak-judul-fajar{
+    font-size: 34px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.form-group-fajar {
+    margin-bottom: 20px;
+}
+
+.form-group-fajar label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group-fajar input,
+.form-group-fajar textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group-fajar textarea {
+    resize: vertical;
+}
+
+.submit-button-fajar {
+    background-color: #2B6356;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.pt-lokasi-fajar{
+    margin-top: 80px;
+}
+
+.judul-peta-fajar{
+    font-size: 34px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pt-img-fajar{
+    width: 100%;
+}

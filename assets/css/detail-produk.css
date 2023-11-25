@@ -1,0 +1,38 @@
+.detail-produk-fajar{
+    margin-top: 80px;
+}
+
+.detail-judul-fajar{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.rating-fajar {
+    font-size: 24px;
+    display: flex;
+}
+
+.star-fajar {
+    color: #ffd700; 
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.detail-p-fajar{
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.des-produk-fajar{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn-detail-produk{
+    margin-top: 20px;
+}
+
+.produk-sama-fajar{
+    margin-top: 80px;
+}

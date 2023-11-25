@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-fajar{
+    margin: auto;
+    width: 80%;
+}
+
+.row-fajar {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.col-6-fajar{
+    width: 50%;
+}
+
+.bg-green-fajar{
+    background-color: #2B6356;
+}
+
+.color-green-fajar{
+    color: #2B6356 ;
+}
+
+.text-center-fajar{
+    text-align: center;
+}
+
+.color-white-fajar{
+    color: white;
+}
+
+.button-green-fajar {
+    display: inline-block;
+    padding: 11px 21px;
+    background-color: #2B6356;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button-white-fajar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:white;
+    color: #2B6356;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border: solid 0.5px #2B6356;
+}
+
+.button-white-fajar:hover {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2B6356;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border: solid 0.5px #2B6356;
+}
+.button-green-fajar:hover {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: #2B6356;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border: solid 0.5px #2B6356;
+}
+
+/* Navbar */
+.navbar_fajar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.judul_fajar {
+    font-size: 1.5em;
+}
+
+.nav-list_fajar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-list_fajar li {
+    margin: 0 15px;
+}
+
+.nav-list_fajar-a {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.menu_fajar {
+    font-size: 1.5em;
+    cursor: pointer;
+    display: none;
+}
+
+.content {
+    margin-top: 80px;
+}
+
+/* Hero */
+.hero-fajar{
+    background-color: #2B6356;
+    padding-bottom: 100px;
+    padding-top: 60px;
+}
+
+.hero-img-size-fajar{
+    width: 300px;
+}
+
+.hero-sub-judul-fajar{
+    padding-top: 100px;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.p-400-fajar{
+    font-weight: 300;
+    font-size: 14px;
+    padding-bottom: 12px;
+}
+
+.button-fajar {
+    display: inline-block;
+    padding: 5px 21px;
+    background-color: white;
+    color: #2B6356;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button-fajar:hover {
+    display: inline-block;
+    padding: 4px 20px;
+    background-color: #2B6356;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border: solid 0.5px white;
+}
+
+.hero-img-fajar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section 1 */
+.section-1-fajar{
+    padding-top: 50px;
+}
+.sec-1-judul-fajar{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+/* Section 1 card */
+.card-grid-fajar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card-fajar {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-hover-fajar:hover {
+    color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #2B6356;
+}
+
+.card-img-fajar {
+    width: 30%;
+    height: auto;
+}
+
+.card-fajar-h2 {
+    padding-top:20px;
+    padding-bottom: 5px;
+    margin: 0;
+    font-weight: 500;
+}
+
+.card-fajar-p {
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.judul-center-fajar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.hr-fajar{
+    text-align: center;
+    height: 4px;
+    background-color: #2B6356; /* Warna garis */
+    border: none;
+    width: 8%; /* Lebar garis */
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.desain-fajar{
+    margin-top: 100px;
+}
+
+/* Terbaik */
+.desain-fajar{
+    background-color: #DCE0E1;
+}
+
+.best-img-1-fajar{
+    width: 80%;
+}
+
+.best-img-fajar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.best-judul-fajar{
+    margin-left: -60px;
+}
+
+.best-sub-judul-fajar{
+    padding-top: 32px;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.p-best-fajar{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+/* Best Produk */
+.best-produk-fajar{
+    margin-top: 80px;
+}
+
+.card-grid-4-fajar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card-grid-2-fajar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.prduk-img-fajar{
+    width: 100%;
+}
+
+.produk-h2-fajar{
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.produk-p-fajar{
+    padding-top: 4px;
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.coret-fajar{
+    font-size: 16px;
+    color: aquamarine;
+}
+
+.produk-pd-fajar{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+.footer-fajar{
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #DCE0E1;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+    .container-fajar{
+        margin: auto;
+        width: 90%;
+    }
+
+    .row-fajar {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col-sm-6-fajar{
+        width: 100%;
+    }
+
+    .order-1-fajar{
+        order: -1;
+    }
+
+    .nav-list_fajar {
+        display: none;
+        flex-direction: column;
+        width: 90%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #2B6356;
+    }
+
+    .nav-list-white-fajar {
+        display: none;
+        flex-direction: column;
+        width: 90%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: white;
+    }
+
+    .nav-list_fajar.show {
+        display: flex;
+        margin-left: 8px;
+    }
+
+    .nav-list_fajar li {
+        margin: 10px;
+    }
+
+    .menu_fajar {
+        display: block;
+    }
+
+    /* Hero */
+    .hero-fajar{
+        background-color: #2B6356;
+        padding-bottom: 100px;
+        padding-top: 60px;
+    }
+
+    .hero-img-size-fajar{
+        width: 200px;
+    }
+
+    .hero-sub-judul-fajar{
+        padding-top: 20px;
+        font-size: 34px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .p-400-fajar{
+        padding-top: 10px;
+        font-weight: 300;
+        font-size: 14px;
+        padding-bottom: 16px;
+        text-align: center;
+    }
+
+    .button-fajar {
+        display: flex;
+        padding: 4px 20px;
+        background-color: white;
+        color: #2B6356;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button-fajar:hover {
+        display: flex;
+        padding: 4px 20px;
+        background-color: #2B6356;
+        color: white;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        border: solid 0.5px white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-img-fajar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Card Grid */
+    .card-grid-fajar {
+        grid-template-columns: 1fr;
+    }
+
+    .card-grid-4-fajar {
+        grid-template-columns: 1fr;
+    }
+
+    .card-hover-fajar:hover {
+        color: white;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #2B6356;
+    }
+
+    /* Best */
+    .sec-1-judul-fajar{
+        font-size: 28px;
+    }
+
+    .best-judul-fajar{
+        margin-left: 0px;
+    }
+
+    .best-sub-judul-fajar{
+        padding-top: 12px;
+        font-size: 28px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .p-best-fajar{
+        font-size: 14px;
+        font-weight: 400;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .button-green-fajar {
+        display: flex;
+        padding: 10px 20px;
+        background-color: #2B6356;
+        color: white;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button-green-fajar:hover {
+        display: flex;
+        padding: 10px 20px;
+        background-color: white;
+        color: #2B6356;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button-white-fajar {
+        margin-top: 10px;
+        display: flex;
+        padding: 10px 20px;
+        background-color: white;
+        color: #2B6356;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .button-white-fajar:hover {
+        margin-top: 10px;
+        display: flex;
+        padding: 10px 20px;
+        background-color: #2B6356;
+        color: white;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Terbaik */
+    .best-img-1-fajar{
+        width: 100%;
+    }
+}
